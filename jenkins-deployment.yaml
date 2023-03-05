@@ -26,7 +26,7 @@ items:
       spec:
         containers:
           - name: "jenkins-master"
-            image: "deekshithsn/jenkinskubernetes:4.0"
+            image: "jenkins/jenkins:lts-jdk11"
             imagePullPolicy: "IfNotPresent"
             env:
               - name: JAVA_OPTS
