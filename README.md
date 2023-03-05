@@ -1,3 +1,4 @@
+https://www.youtube.com/watch?v=bcjOOp7x7i0&t=110s
 First lets create namespace with name jenkins 
 ```
 kubectl create ns jenkins
