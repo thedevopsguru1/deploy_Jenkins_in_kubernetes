@@ -71,6 +71,7 @@ https://issues.jenkins.io/browse/JENKINS-55788 or https://stackoverflow.com/ques
 ![4](https://user-images.githubusercontent.com/29688323/107121871-b7b17c00-68ba-11eb-86c4-105e5a91d6f1.JPG)
 
 - Next configure pod template and container details as show in below picture 
+### lease update the slave docke rimage to : jenkins/inbound-agent
 
 ![5](https://user-images.githubusercontent.com/29688323/107121872-b84a1280-68ba-11eb-8396-37ced0cf37d1.JPG)
 ![6](https://user-images.githubusercontent.com/29688323/107121873-b8e2a900-68ba-11eb-949d-ddcd52bcfbf4.JPG)
