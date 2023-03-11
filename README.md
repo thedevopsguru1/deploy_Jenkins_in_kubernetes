@@ -12,7 +12,11 @@ helm install my-jenkins jenkinsci/jenkins --version 4.3.5 -n jenkins
 
 helm link: https://artifacthub.io/packages/helm/jenkinsci/jenkins
 
+#####################################################################################################
 
+
+
+#######################################################################################################
 
 https://www.youtube.com/watch?v=bcjOOp7x7i0&t=110s
 ## This below is not for the master jenkins,may be fr the workers
