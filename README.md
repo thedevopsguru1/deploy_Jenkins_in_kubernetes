@@ -1,5 +1,6 @@
 https://www.youtube.com/watch?v=bcjOOp7x7i0&t=110s
-## To have the image you can create a jenkins docker image from the included dockerfile.
+## This below is not for the master jenkins,may be fr the workers
+## To have the image  you can create a jenkins docker image from the included dockerfile.
 ```
 docker build -t devopstrainingschool/jenkins-kubernetes .
 ```
