@@ -55,7 +55,8 @@ Once after jenkins up and running, navigate to Manage Jenkins --> Configure Syst
 
 ![3](https://user-images.githubusercontent.com/29688323/107121870-b718e580-68ba-11eb-90ae-de903ab04eda.JPG)
 
-if you face any problem in this step checkout https://issues.jenkins.io/browse/JENKINS-55788 or https://stackoverflow.com/questions/47973570/kubernetes-log-user-systemserviceaccountdefaultdefault-cannot-get-services
+if you face any problem in this step, specially when creating the slave container:  checkout 
+https://issues.jenkins.io/browse/JENKINS-55788 or https://stackoverflow.com/questions/47973570/kubernetes-log-user-systemserviceaccountdefaultdefault-cannot-get-services
 
 - Next get service url and provide the same in jenkins. Save it 
 
