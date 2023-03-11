@@ -1,5 +1,10 @@
 https://www.youtube.com/watch?v=bcjOOp7x7i0&t=110s
-First lets create namespace with name jenkins 
+## To have the image you can create a jenkins docker image from the included dockerfile.
+```
+docker build -t devopstrainingschool/jenkins-kubernetes .
+```
+### Change all the container images to the above
+## First lets create namespace with name jenkins 
 ```
 kubectl create ns jenkins
 ```
