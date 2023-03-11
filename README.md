@@ -54,7 +54,11 @@ Once after jenkins up and running, navigate to Manage Jenkins --> Configure Syst
 - get kubernetes url by running ``` kubectl cluster-info ``` get url and click on test connection. after clicking on it, you should see Connected Kubernetes 
 
 ![3](https://user-images.githubusercontent.com/29688323/107121870-b718e580-68ba-11eb-90ae-de903ab04eda.JPG)
-## Fix this
+## Fix This if you have connection issue running jenkins in a k8s:
+```
+ kubectl create clusterrolebinding permissive-binding --clusterrole=cluster-admin --user=admin --user=kubelet --group=system:serviceaccounts
+```
+## Fix this if you encounter issue with slave container
 ![image](https://user-images.githubusercontent.com/126810742/224455053-877dbc79-ea8f-466d-8587-ce554070caa5.png)
 
 if you face any problem in this step, specially when creating the slave container:  checkout 
