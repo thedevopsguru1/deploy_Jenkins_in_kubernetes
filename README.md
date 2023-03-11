@@ -5,7 +5,9 @@ helm repo add jenkinsci https://charts.jenkins.io/
 ```
 helm repo update
 ```
-
+```
+kubectl create ns jenkins
+```
 ```
 helm install my-jenkins jenkinsci/jenkins --version 4.3.5 -n jenkins
 ```
