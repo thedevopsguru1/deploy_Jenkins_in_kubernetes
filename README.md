@@ -54,7 +54,7 @@ Once after jenkins up and running, navigate to Manage Jenkins --> Configure Syst
 - get kubernetes url by running ``` kubectl cluster-info ``` get url and click on test connection. after clicking on it, you should see Connected Kubernetes 
 
 ![3](https://user-images.githubusercontent.com/29688323/107121870-b718e580-68ba-11eb-90ae-de903ab04eda.JPG)
-## Fix This if you have connection issue running jenkins in a k8s:
+## Fix This if you have connection issue running jenkins in a k8s: or this jenkins "No valid crumb was included in the request"
 ```
  kubectl create clusterrolebinding permissive-binding --clusterrole=cluster-admin --user=admin --user=kubelet --group=system:serviceaccounts
 ```
